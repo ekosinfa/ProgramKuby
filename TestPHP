@@ -1,0 +1,18 @@
+<?php
+
+$i = 0;
+
+while($i < 10) {
+    echo $i;
+    $i = $i+1;
+}
+if ($zmienna % 5 == 0){
+  echo 'dobrze';
+}
+elseif ($zmienna % 3 == 0){
+  echo 'super';
+}
+elseif ($zmienna % 3 == 0 && $zmienna % 5 == 0){
+  echo 'ok';
+}
+?>
